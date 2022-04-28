@@ -31,80 +31,83 @@
             </li>
         </ul>
     </nav>
-    <div class="inicioCafeShop">
-        <img class="content_div_one_photo" class="img-fluid" src="images/ImgHeader.jpg">
-        <div class="card-title text-light">CAFE SHOP <br> Bienvenidos a la web <br> de nuestros cafe.</div>
-    </div>
 
-    <div class="main text-center mt-5">
-        <h6 class="heading text-white-50">Lorem ipsum dolor sit amet consectetur.</h6>
-        <p class="text-info text-warning">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, minus.</p>
-        <p class="text-info text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </div>
-    <div class="container mt-4 d-flex justify-content-center">
-        <div class="row g-0">
-            <div class="col-md-4 border-right">
-                <div class="cards">
-                    <div class="first bg-dark p-4 text-center text-light"> <img src="images/coffee-bag.png" />
-                        <h5>Lorem, ipsum dolor.</h5>
-                        <p class="line1 text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora,
-                            architecto.</p>
+    <div class="container my-4">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Contacto CafeShop</h2>
+                <p class="text-center w-responsive mx-auto mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe alias similique animi porro, tempore possimus pariatur dolorum facilis ipsum. Rerum</p>
+
+                <div class="row">
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Nombre y Apellido</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="">Asunto</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea"></textarea>
+                                        <label for="message">Mensaje</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="d-grid gap-2 d-md-block">
+                            <a class="btn btn-primary" style="margin-top:10px;">Enviar</a>
+                        </div>
+                        <div class="status"></div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4 border-right">
-                <div class="cards">
-                    <div class=" second bg-dark p-4 text-center text-light"> <img src="images/coffee-cup.png" />
-                        <h5>Lorem ipsum dolor sit.</h5>
-                        <p class="line2 text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique,
-                            eligendi.</p>
+
+
+
+                    <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                <p>Av. Calle Sin Nombre 2656</p>
+                            </li>
+
+                            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                <p>351-52316843</p>
+                            </li>
+
+                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                <p>cafeshop@gmail.com</p>
+                            </li>
+                        </ul>
                     </div>
+
                 </div>
+
             </div>
-            <div class="col-md-4">
-                <div class="cards">
-                    <div class=" third bg-dark p-4 text-center text-light"> <img src="images/bar-counter.png" />
-                        <h5>Lorem, ipsum dolor.</h5>
-                        <p class="line3 text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-                            eius facere accusantium!</p>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 
-    <div class=" py-4 container min-vh-75 d-flex justify-content-center align-items-center">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card1 mt-3 p-3 g-2">
-                    <div class="d-flex align-items-center"> <small class="first">Dia 1:30 pm</small> </div>
-                    <div class="mt-3">
-                        <h2 class="text1">Cafe Shop <br>Notas</h2>
-                    </div>
-                    <div class="detail mt-5"> <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                            deserunt repudiandae distinctio pariatur est.</small> </div>
-                    <div class="mt-3 d-flex justify-content-end px-2"> <button class="btn-submit">Noticias</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card2 mt-3 p-3 g-2">
-                    <div class="d-flex align-items-center"> <small class="second">Dia 1:30 pm</small> </div>
-                    <div class="mt-3">
-                        <h2 class="text2">Cafe Shop<br> Notas</h2>
-                    </div>
-                    <div class="detail mt-5">
-                        <div class="px-1"> <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-                                nesciunt voluptates dolores quam cupiditate debitis! </small> </div>
-                    </div>
-                    <div class="mt-3 d-flex justify-content-end px-2"> <button class="btn-submit1">Noticias</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.2);">
+    <footer class=" text-center text-white" style="background-color: rgba(0, 0, 0, 0.2);">
         <section class="mb-4">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
@@ -196,9 +199,5 @@
             Diseño con Bootstrap - Cesar Trouillet
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-</body>
 
-</html>
+</body>
